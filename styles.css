@@ -209,6 +209,7 @@ nav .container {
     border-radius: 12px;
     border: 1px solid var(--border-color);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    text-align: center;
 }
 
 .member-photo {
@@ -245,12 +246,14 @@ nav .container {
     color: var(--text-color);
     margin-bottom: 1.5rem;
     font-weight: 500;
+    text-align: center;
 }
 
 .education {
     margin-top: 1rem;
     font-style: italic;
     color: var(--text-color);
+    text-align: center;
 }
 
 /* Contact Section */

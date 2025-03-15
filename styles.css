@@ -213,6 +213,11 @@ nav .container {
 
 .team-member p {
     text-align: left;
+    margin-bottom: 1.2rem;
+}
+
+.team-member p:last-of-type {
+    margin-bottom: 0;
 }
 
 .member-photo {
@@ -246,7 +251,7 @@ nav .container {
     text-align: center;
 }
 
-.member-title {
+.team-member .member-title {
     font-size: 1.1rem;
     color: var(--text-color);
     margin-bottom: 1.5rem;
@@ -255,10 +260,10 @@ nav .container {
 }
 
 .education {
-    margin-top: 1rem;
+    margin-top: 1.5rem;
     font-style: italic;
     color: var(--text-color);
-    text-align: center;
+    text-align: left;
 }
 
 /* Contact Section */

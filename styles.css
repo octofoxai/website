@@ -209,7 +209,10 @@ nav .container {
     border-radius: 12px;
     border: 1px solid var(--border-color);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-    text-align: center;
+}
+
+.team-member p {
+    text-align: left;
 }
 
 .member-photo {
@@ -218,6 +221,7 @@ nav .container {
     margin: 0 auto 1.5rem;
     border-radius: 50%;
     overflow: hidden;
+    text-align: center;
 }
 
 .member-photo img {
@@ -239,6 +243,7 @@ nav .container {
     -webkit-text-fill-color: transparent;
     background-clip: text;
     font-weight: 600;
+    text-align: center;
 }
 
 .member-title {
